@@ -1,0 +1,21 @@
+:compileJava NO-SOURCE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:assemble UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:cucumber
+Feature: Using Contact Form
+
+  Scenario: Simple google search 1            [90m# Contact_Form.feature:3[0m
+    [32mGiven [0m[32mi am in the google home page[0m        [90m# MyStepdefs.iamInGoogleHomePage()[0m
+    [32mWhen [0m[32mi search for "[0m[32m[1mhtml tutorial[0m[32m" in page[0m [90m# MyStepdefs.iSearchForInPage(String)[0m
+    [32mThen [0m[32mi see more than one result displayed[0m [90m# MyStepdefs.iSeeMoreThanOneResultDisplayed()[0m
+
+1 Scenarios ([32m1 passed[0m)
+3 Steps ([32m3 passed[0m)
+0m4.876s
+
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 1 executed, 2 up-to-date
